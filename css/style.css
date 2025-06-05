@@ -1,4 +1,21 @@
+:root {
+  --primary-color: #0f1c2c;
+  --secondary-color: #d7a675;
+  --light-blue: #90e0ef;
+  --white: #faf9f6;
+  --black: #000000;
+  --footer-color: #111111;
+  --roboto: "Roboto", sans-serif;
+  --h1-size: 46px;
+  --h2-size: 36px;
+  --h3-size: 30px;
+  --h5-size-nav: 21px;
+  --p-size-large: 16px;
+  --p-size-small: 14px;
+}
+
 * {
   margin: 0;
   font-family: roboto;
+  scroll-behavior: smooth;
 }
