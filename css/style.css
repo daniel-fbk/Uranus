@@ -19,3 +19,23 @@
   font-family: roboto;
   scroll-behavior: smooth;
 }
+
+header {
+  background-color: var(--primary-color);
+  color: var(--white);
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.nav-buttons-container {
+  display: flex;
+}
