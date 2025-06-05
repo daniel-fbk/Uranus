@@ -10,7 +10,7 @@
   --h2-size: 36px;
   --h3-size: 30px;
   --h5-size-nav: 21px;
-  --p-size-large: 16px;
+  --p-size-large: 20px;
   --p-size-small: 14px;
 }
 
@@ -38,4 +38,43 @@ nav {
 
 .nav-buttons-container {
   display: flex;
+}
+
+/* INTRO  SECTION */
+
+.intro {
+  background-color: var(--primary-color);
+  max-width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+  padding: 50px 90px;
+}
+
+.intro h1 {
+  color: var(--white);
+  font-family: var(--roboto);
+  font-size: var(--h1-size);
+}
+.intro-article {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.intro-article img {
+  width: 742px;
+  height: 418px;
+}
+.intro-article p {
+  font-family: var(--roboto);
+  color: var(--white);
+  font-size: var(--p-size-large);
+  line-height: 1.5;
+  text-align: center;
+  padding: 70px 0px 70px 20px;
+  font-weight: bold;
 }
