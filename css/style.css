@@ -59,22 +59,31 @@ nav {
   font-size: var(--h1-size);
 }
 .intro-article {
-  width: 80%;
+  width: 90%;
   display: flex;
   flex-direction: row;
   justify-content: center;
+  gap: 40px;
 }
 
 .intro-article img {
   width: 742px;
   height: 418px;
 }
+
+.intro-article div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 418px;
+}
+
 .intro-article p {
   font-family: var(--roboto);
   color: var(--white);
   font-size: var(--p-size-large);
   line-height: 1.5;
   text-align: center;
-  padding: 70px 0px 70px 20px;
+  /* padding-left: 30px; */
   font-weight: bold;
 }
