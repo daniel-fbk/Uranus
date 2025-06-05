@@ -77,6 +77,10 @@ nav {
 }
 
 .info-box-articles {
+  display: flex;
+  flex-direction: column;
+  width: 460px;
+  gap: 50px;
 }
 
 /* INTRO  SECTION */
