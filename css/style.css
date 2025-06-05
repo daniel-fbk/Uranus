@@ -59,9 +59,12 @@ nav {
   color: var(--white);
 }
 
+.exploration > * {
+  margin: 20px 200px;
+}
+
 .info-box-exploration {
   display: flex;
-  margin: 0 100px;
   gap: 50px;
 }
 
