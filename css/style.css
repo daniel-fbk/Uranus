@@ -20,6 +20,8 @@
   scroll-behavior: smooth;
 }
 
+/* HEADER */
+
 header {
   background-color: var(--primary-color);
   color: var(--white);
@@ -50,6 +52,8 @@ nav {
   color: var(--white);
 }
 
+/* EXPLORATION SECTION */
+
 .exploration {
   background-color: var(--black);
   color: var(--white);
@@ -75,6 +79,10 @@ nav {
 }
 
 .info-box-articles {
+  display: flex;
+  flex-direction: column;
+  width: 460px;
+  gap: 50px;
 }
 
 /* INTRO  SECTION */
