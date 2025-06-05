@@ -29,6 +29,9 @@ nav {
   display: flex;
   flex-direction: row;
   align-items: center;
+  padding: 0 20px;
+  height: 70px;
+  gap: 450px;
 }
 
 .logo {
@@ -38,4 +41,38 @@ nav {
 
 .nav-buttons-container {
   display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.nav-buttons-container > a {
+  text-decoration: none;
+  color: var(--white);
+}
+
+.exploration {
+  background-color: var(--black);
+  color: var(--white);
+}
+
+.info-box-exploration {
+  display: flex;
+  margin: 0 100px;
+  gap: 50px;
+}
+
+.text-frame-border-exploration {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--secondary-color);
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.text-frame-exploration {
+  background-color: var(--primary-color);
+  border-radius: 5px;
+}
+
+.info-box-articles {
 }
