@@ -52,30 +52,39 @@ nav {
 .exploration {
   background-color: var(--black);
   color: var(--white);
+  padding: 0 15px;
 }
 
 .exploration > * {
   margin: 20px 200px;
 }
 
+.exploration > h2 {
+  padding-top: 50px;
+}
+
 .info-box-exploration {
   display: flex;
   gap: 50px;
+  max-width: 100%;
 }
 
 .text-frame-border-exploration {
-  display: flex;
-  flex-direction: column;
   background-color: var(--secondary-color);
-  padding: 5px;
-  border-radius: 5px;
+  padding: 15px 0 0 15px;
+  border-radius: 15px;
+  width: fit-content;
 }
 
 .text-frame-exploration {
   background-color: var(--primary-color);
-  border-radius: 5px;
+  border-radius: 15px;
   line-height: 175%;
   padding: 10px;
+}
+
+.satellite-image {
+  align-self: center;
 }
 
 .info-box-articles {
