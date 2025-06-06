@@ -52,7 +52,7 @@ nav {
 }
 
 .hero {
-  background-image: url("/images/hero-image.jpg");
+  background-image: url("../images/hero-image.jpg");
   height: 720px;
   background-attachment: fixed;
   background-position: center;
