@@ -11,7 +11,7 @@
   --h3-size: 30px;
   --h5-size-nav: 21px;
   --p-size-large: 20px;
-  --p-size-small: 14px;
+  --p-size-small: 16px;
 }
 
 * {
@@ -141,21 +141,48 @@ nav {
   justify-content: center;
   align-items: center;
   gap: 70px;
+  color: var(--secondary-color);
+  font-family: var(--roboto);
+  padding: 50px 0;
 }
 
 .fact {
   width: 1165px;
   height: 408px;
+  background-color: var(--black);
   display: flex;
   flex-direction: row;
   justify-content: center;
+  align-items: center;
+  gap: 46px;
+  padding: 0 19px;
+  border-radius: 30px;
 }
 
 .facts h1 {
-  color: var(--secondary-color);
+  font-size: var(--h1-size);
 }
 
+.fact-desc {
+  width: 50%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.fact-desc h3 {
+  font-size: var(--h3-size);
+}
+
+.fact-desc p {
+  font-size: var(--p-size-small);
+  line-height: 1.5;
+  font-weight: bold;
+}
 .fact img {
   height: 272px;
   width: 524px;
+  object-fit: cover;
 }
