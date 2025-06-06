@@ -25,6 +25,8 @@
 header {
   background-color: var(--primary-color);
   color: var(--white);
+  position: sticky;
+  top: 0;
 }
 
 nav {
@@ -49,6 +51,13 @@ nav {
   color: var(--white);
 }
 
+.hero {
+  background-image: url(/images/hero-image.jpg);
+  height: 720px;
+  background-attachment: fixed;
+  background-position: center;
+}
+
 .exploration {
   background-color: var(--black);
   color: var(--white);
@@ -56,7 +65,7 @@ nav {
 }
 
 .exploration > * {
-  margin: 20px 200px;
+  padding: 20px 200px;
 }
 
 .exploration > h2 {
@@ -71,7 +80,7 @@ nav {
 
 .text-frame-border-exploration {
   background-color: var(--secondary-color);
-  padding: 15px 0 0 15px;
+  padding: 15px 2px 2px 15px;
   border-radius: 15px;
   width: fit-content;
 }
@@ -81,6 +90,7 @@ nav {
   border-radius: 15px;
   line-height: 175%;
   padding: 10px;
+  box-shadow: -1px -1px 10px var(--primary-color);
 }
 
 .satellite-image {
