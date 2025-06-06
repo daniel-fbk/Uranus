@@ -74,6 +74,8 @@ nav {
 .text-frame-exploration {
   background-color: var(--primary-color);
   border-radius: 5px;
+  line-height: 175%;
+  padding: 10px;
 }
 
 .info-box-articles {
