@@ -131,3 +131,31 @@ nav {
   text-align: center;
   font-weight: bold;
 }
+
+/* FACTS SECTION */
+.facts {
+  background-color: var(--primary-color);
+  max-width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+}
+
+.fact {
+  width: 1165px;
+  height: 408px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.facts h1 {
+  color: var(--secondary-color);
+}
+
+.fact img {
+  height: 272px;
+  width: 524px;
+}
