@@ -6,7 +6,7 @@
   --black: #000000;
   --footer-color: #111111;
   --roboto: "Roboto", sans-serif;
-  --h1-size: 25px;
+  --h1-size: 45px;
   --h2-size: 36px;
   --h3-size: 30px;
   --h5-size-nav: 21px;
@@ -45,7 +45,7 @@ header {
   display: flex;
   align-items: center;
   left: 20px;
-  font-size: var(--h1-size);
+  font-size: var(--h2-size);
   gap: 10px;
   font-weight: 700;
 }
@@ -286,12 +286,22 @@ footer {
   background-color: var(--primary-color);
 }
 
+.gallery > h1 {
+  color: var(--white);
+  font-size: var(--h1-size);
+  padding-top: 50px;
+  text-align: center;
+  border-bottom: solid var(--secondary-color) 1px;
+  width: 50%;
+  margin: 0 auto;
+}
+
 .gallery-images-container {
   display: grid;
   grid-template-columns: auto auto;
   justify-content: center;
   gap: 100px;
-  padding-top: 50px;
+  padding: 50px 0;
 }
 
 .gallery-image-box {
