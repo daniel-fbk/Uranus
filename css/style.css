@@ -6,7 +6,7 @@
   --black: #000000;
   --footer-color: #111111;
   --roboto: "Roboto", sans-serif;
-  --h1-size: 46px;
+  --h1-size: 25px;
   --h2-size: 36px;
   --h3-size: 30px;
   --h5-size-nav: 21px;
@@ -20,6 +20,11 @@
   scroll-behavior: smooth;
 }
 
+a {
+  text-decoration: none;
+  color: var(--white);
+}
+
 /* HEADER */
 
 header {
@@ -27,28 +32,49 @@ header {
   color: var(--white);
   position: sticky;
   top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70px;
+  border-bottom: solid #023e8a 2px;
+}
+
+.logo {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  left: 20px;
+  font-size: var(--h1-size);
+  gap: 10px;
+  font-weight: 700;
+}
+
+.logo:hover {
+  color: var(--secondary-color);
 }
 
 nav {
   display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
-.logo {
-  display: flex;
-  align-items: center;
-}
-
-.nav-buttons-container {
-  display: flex;
+  flex: 1;
   justify-content: center;
-  gap: 20px;
+  align-items: center;
+  height: 100%;
 }
 
-.nav-buttons-container > a {
-  text-decoration: none;
+nav > a {
   color: var(--white);
+  font-size: var(--h5-size-nav);
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 0 20px;
+  margin: 0;
+}
+
+nav > a:hover {
+  background-color: #1d2c3f;
+  color: var(--secondary-color);
 }
 
 .hero {
