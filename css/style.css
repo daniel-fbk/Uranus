@@ -251,11 +251,9 @@ footer {
   color: var(--white);
 }
 
-.logo-uranus {
-  display: flex;
-  flex-direction: row;
-  gap: 10px;
-  align-items: center;
+.footer-details .logo {
+  position: relative;
+  left: 0;
 }
 
 .footer-socials {
