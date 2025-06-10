@@ -198,7 +198,7 @@ nav > a:hover {
   height: 408px;
   background: radial-gradient(farthest-side at 30% 50%, #0f1c2c, black);
   position: sticky;
-  top: 180px;
+  top: 200px;
   display: flex;
   flex-direction: row;
   justify-content: center;
