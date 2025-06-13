@@ -93,18 +93,15 @@ nav > a:hover {
 .exploration {
   background-color: var(--black);
   color: var(--white);
-  padding: 20px 15px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  padding: 20px 0;
 }
 
 .exploration > * {
-  padding: 20px 200px;
+  padding: 20px 0;
 }
 
 .exploration > h2 {
-  text-align: left;
+  padding-left: 14%;
 }
 
 .info-box-exploration {
@@ -116,7 +113,6 @@ nav > a:hover {
 .text-frame-border-exploration {
   padding: 15px 2px 2px 15px;
   border-radius: 15px;
-  width: fit-content;
   background-color: var(--secondary-color);
   transition: 0.25s ease-out;
   width: 100%;
