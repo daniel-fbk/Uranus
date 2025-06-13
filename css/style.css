@@ -85,10 +85,7 @@ nav > a:hover {
   height: 720px;
   background-attachment: fixed;
   background-position: center;
-  background-size: cover;
 }
-
-/* EXPLORATION SECTION */
 
 .exploration {
   background-color: var(--black);
@@ -107,7 +104,7 @@ nav > a:hover {
 .info-box-exploration {
   display: flex;
   gap: 50px;
-  justify-content: center;
+  max-width: 100%;
 }
 
 .text-frame-border-exploration {
@@ -115,11 +112,6 @@ nav > a:hover {
   border-radius: 15px;
   background-color: var(--secondary-color);
   transition: 0.25s ease-out;
-  width: 100%;
-}
-
-#exploration-bot-right-frame {
-  max-width: 500px;
 }
 
 .text-frame-border-exploration:hover {
