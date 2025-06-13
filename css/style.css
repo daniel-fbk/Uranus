@@ -85,18 +85,12 @@ nav > a:hover {
   height: 720px;
   background-attachment: fixed;
   background-position: center;
-  background-size: cover;
 }
-
-/* EXPLORATION SECTION */
 
 .exploration {
   background-color: var(--black);
   color: var(--white);
-  padding: 20px 15px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  padding: 0 15px;
 }
 
 .exploration > * {
@@ -104,13 +98,13 @@ nav > a:hover {
 }
 
 .exploration > h2 {
-  text-align: left;
+  padding-top: 50px;
 }
 
 .info-box-exploration {
   display: flex;
   gap: 50px;
-  justify-content: center;
+  max-width: 100%;
 }
 
 .text-frame-border-exploration {
@@ -119,11 +113,6 @@ nav > a:hover {
   width: fit-content;
   background-color: var(--secondary-color);
   transition: 0.25s ease-out;
-  width: 100%;
-}
-
-#exploration-bot-right-frame {
-  max-width: 500px;
 }
 
 .text-frame-border-exploration:hover {
